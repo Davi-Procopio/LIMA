@@ -7,7 +7,7 @@ LinkedIn • GitHub
 
 ## Objetivo Profissional
 
-Buscando uma oportunidade para desenvolver meus conhecimentos na área de **Tecnologia da Informação**, com interesse em **Desenvolvimento de Sistemas**, buscando adquirir experiência e continuar evoluindo profissionalmente na área.
+Buscando uma oportunidade para desenvolver meus conhecimentos na área de **Tecnologia da Informação**, com interesse em **Desenvolvimento de Sistemas**, buscando adquirir mais experiência e continuar evoluindo profissionalmente na área.
 
 ---
 
