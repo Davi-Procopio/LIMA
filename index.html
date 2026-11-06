@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela do cliente</title> 
+
+</head>
+
+<body>
+    <h1>Fildset 1</h1>
+    <hr></hr>
+
+    <!-- Grupo 01 dados do cliente em fieldset -->
+     <Fieldset>
+        <legend><strong>>1. Dados do Cliente</strong></legend>
+
+        <p>
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu e-nome aqui">
+        </p>
+
+                <p>
+            <label for="nome">E-mail</label>
+            <input type="text" id="e-mail" name="e-mail" placeholder="Digite seu e-mail aqui">
+        </p>
+
+                <p>
+            <label for="nome">Telefone</label>
+            <input type="text" id="telefone" name="telefone" placeholder="+55 (19) 99999-9999">
+        </p>
+    </Fieldset>
+
+      <!-- Grupo 02 configuração de hardware -->
+       <Fieldset>
+             <legend><strong>>2. Preferências de hardware</strong></legend>
+<p>
+            <label for="gpu">Escolha a placa de vídeo</label>
+            <select id="gpu" name="gpu"> <required>
+            <option value="">--Selecione uma GPU--</option>
+            <option value="gtx1650">NVIDIA GTX 1650 4GB <option>
+            <option value="gtx1651">NVIDIA GTX 1651 4GB <option>
+            <option value="gtx1652">NVIDIA GTX 1652 4GB <option>
+            </select>
+           </p>
+
+        <p>
+            <strong>Serviços e Adicionais Desejados (Opcional 1)</strong>
+            </p>
+            <p>
+            <input type="radio" id="jogos" name="objetivo" value="jogos"> <checked></input>
+            <label for="Jogos">Jogos eltrônicos</label>
+            
+            <input type="radio" id="streaming" name="objetivo" value="streaming"></input>
+            <label for="Streaming">Live Stream / Criação de conteúdo</label>
+
+            <input type="radio" id="trabalho" name="objetivo" value="trabalho"></input>
+            <label for="Trabalho">Trabalho</label>
+            
+        </p>
+
+                    <p>
+            <strong>Serviços e Adicionais Desejado (Opcional 2)</strong>
+            </p>
+            <p>
+            <input type="checkbox" id="rgb" name="adicionais" value="RGB extra"> <checked></input>
+            <label for="rgb">Fita LED RGB adicional no gabinete</label>
+            
+            <input type="checkbox" id="overclock" name="adicionais" value="overclock"></input>
+            <label for="overclock">Perfil de overclock configurado na BIOS</label>
+
+            <input type="checkbox" id="garantia_estendida" name="adicionais" value="garantia_3_anos"></input>
+            <label for="garantia_estendida">Trabalho</label>
+            
+        </p>
+
+        <p>
+            <label for="observacoes">Observações / Dúvidas</label><br>
+            <textarea id="observacoes" name="observacoes" rows="4" cols="50" placeholder="Deixe aqui sua queixa..."></textarea>
+
+        </p>
+
+    <p>
+        <label for="foto+referencia">Anexar prints e imagens</label><br>
+            <input type="file" id="foto_referencia" name="foto_referencia" accept="image/*">
+        </p>
+    <br>
+    <p>
+        <button type="submit"> ENIVAR SOLICITAÇÃO DE ORÇAMENTO</button>
+        <button type="reset"> LIMPAR CAMPOS</button>
+
+
+        </p>
+        
+    <Fieldset>
+
+</body>
