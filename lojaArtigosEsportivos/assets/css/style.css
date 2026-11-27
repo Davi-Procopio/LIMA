@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f1015;
+    color: #f1f1f1;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #00e676;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #2a2d3a;
+    margin: 20px 0;
+}
+
+dt {
+    color: #00e676;
+    margin-top: 8px;
+}
+
+.tabela-catalogo {
+    background-color: #161821;
+    border-color: #2f3344;
+    color: #f1f1f1;
+}
+
+.cabecalho-principal th {
+    background-color: #00c853;
+    color: #0f1015;
+}
+
+.cabecalho-colunas th,
+.rodape-tabela td {
+    background-color: #222634;
+    color: #00e676;
+}
+
+.linha-destaque {
+    background-color: #1c1f2b;
+}
+
+.celula-categoria {
+    background-color: #1f2433;
+    color: #00e676;
+}
+
+.tabela-encadeada {
+    background-color: #101218;
+    border-color: #3a3f54;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+fieldset {
+    border: 1px solid #2f3344;
+    background-color: #161821;
+    padding: 15px;
+}
+
+legend {
+    color: #00e676;
+}
+
+button {
+    background-color: #00c853;
+    color: #0f1015;
+    font-weight: bold;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #2f3344;
+    color: #f1f1f1;
+}
